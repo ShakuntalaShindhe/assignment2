@@ -48,13 +48,12 @@
 
         History.push(`${num1} ${operation} ${num2} = ${result}`);
         displayHistory();
-        let ContinueCal = prompt(" do u want to perform another calculation?");
+        let ContinueCal = prompt(" do u want to perform another calculation?(yes or no)");
         if (ContinueCal !== 'yes') {
             console.log("user decided to exit.");
             break;
         }
     }
-
 </script>
 
 </html>
